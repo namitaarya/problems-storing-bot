@@ -1,5 +1,6 @@
 const { Client, Intents } = require('discord.js');
 const token = process.env.token;
+const mongoPass = process.env.mongoPass;
 const Mongoose = require('mongoose');
 
 
